@@ -1,0 +1,333 @@
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('../fonts/MYRIADPROREGULAR.eot');
+	src: local('../fonts/MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4410">Text with this font applied</p> */
+
+.fontsforweb_fontid_4410 {
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+
+/* Font downloaded from FontsForWeb.com */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p,
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+.row {
+	margin: 0;
+}
+
+a:focus,
+a:hover {
+	color: #070707;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: #070707;
+	display: inline-block;
+}
+
+body {
+	font-family: 'MYRIADPROREGULAR';
+	color: #262626;
+	background-color: #FFFFFF;
+}
+
+.full-container {
+	max-width: 1623px;
+	margin: 0 auto;
+}
+
+.content-wrapper {
+	max-width: 935px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #ffffff;
+}
+
+header .logo {
+	width: 291px;
+	display: inline-block;
+}
+
+header .logo .logo-img {
+	height: 161px;
+	width: 166px;
+	margin: 3px 0 0 60px
+}
+
+header .header-content {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header .header-content h1 {
+	padding: 31px 24px 14px 35px;
+	font-size: 35px;
+	display: inline-block;
+}
+
+header .header-content .header-btn {
+	font-size: 15px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	color: #4090DB;
+	padding: 5px 12px 5px 12px;
+	border: 1px solid #4090DB;
+	vertical-align: super;
+	transition: .6s ease-out;
+	cursor: pointer;
+}
+
+header .header-content .header-btn:hover {
+	background-color: #4090DB;
+	color: #FFFFFF;
+}
+
+header .popularity {
+	font-size: 17px;
+	max-width: 336px;
+	padding: 0 0 0 36px;
+}
+
+header .popularity span {
+	font-weight: bold;
+}
+
+header .popularity p {
+	opacity: .7;
+}
+
+header .data-block {
+	padding: 14px 0 35px 0;
+}
+
+header .data-block .date-txt {
+	font-size: 17px;
+	display: inline-block;
+	padding: 0 19px 0 38px;
+}
+
+header .data-block .input-group {
+	padding-right: 23px;
+	padding: 0 23px 0 0;
+	width: auto;
+}
+
+.input-group>.custom-file,
+.input-group>.custom-select,
+.input-group>.form-control {
+	width: 120px;
+	height: 33px;
+}
+
+header .data-block .input-group .input-group-addon {
+	/*border: 0.5px solid #ced4da;*/
+	border-top: 1px solid #ced4da;
+	border-bottom: 1px solid #ced4da;
+	border-right: 1px solid #ced4da;
+	cursor: pointer;
+	height: 33px;
+	width: 33px;
+	background-color: #EBEBEB;
+}
+
+header .data-block .input-group #calendar1,
+header .data-block .input-group #calendar2 {
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+main {
+	background-color: #FAFAFA;
+}
+
+main .bg-block-1 {
+	padding-top: 70px;
+}
+
+main .bg-block .bg-block-img {
+	height: 292px !important;
+	max-width: 291px !important;
+	margin-bottom: 28px !important;
+}
+
+main .bg-block-img {
+	position: relative;
+	transition: .6s ease-out;
+}
+
+main .bg-block-img:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .5);
+	z-index: 2;
+}
+
+main .bg-block-img .img-upload {
+	position: absolute;
+	top: 264px;
+	left: calc(50% - 93px);
+	font-size: 17px;
+	color: #ffffff;
+	z-index: 3;
+}
+
+main .bg-block-img .camera{
+	z-index: 3;
+    position: relative;
+}
+
+main .bg-block-img:hover {
+	opacity: .7
+}
+
+main .social-wrapper {
+	z-index: 3;
+	position: absolute;
+	margin-top: calc(100% - 128px);
+	left: 30px;
+}
+
+main  .btm-camera-block {
+margin-top: calc(100% - 176px);
+}
+
+main .social-wrapper-middle {
+	margin-top: calc(50% - 27px);
+}
+main  .mdl-camera-block {
+margin-top: calc(50% - 74px);
+}
+
+main .social-wrapper-1 {
+	left: 10px;
+}
+
+main .social-wrapper .social-today,
+main .social-wrapper .social-date {
+	color: #ffffff;
+	margin-bottom: 17px;
+	font-size: 17px;
+}
+
+main .social-wrapper .social-today .today {
+	padding: 0 53px 25px 0;
+}
+
+main .social-wrapper .social-today .today-1 {
+	padding: 0 52px 25px 0;
+}
+
+main .social-wrapper .social-date .date {
+	padding: 0 25px 0 0;
+}
+
+main .social-wrapper .social-date .date-1 {
+	padding: 0 23px 0 0;
+}
+
+main .social-today>b {
+	vertical-align: middle;
+}
+
+main .social-wrapper .social-today .likes {
+	padding-right: 21px
+}
+
+main .social-wrapper .social-date .likes {
+	padding-right: 30px
+}
+
+main .social-wrapper .social-date .likes-1 {
+	padding-right: 50px
+}
+
+main .social-wrapper img {
+	margin-right: 3px;
+}
+main .social-wrapper .figure {
+    margin-right: 7px;
+}
+
+main .main-btn {
+	font-size: 12px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	color: #060606 !important;
+	padding: 5px 30px;
+	border: 1px solid #060606;
+	vertical-align: super;
+	transition: .6s ease-out;
+	cursor: pointer;
+	text-align: center;
+	width: 125px;
+	display: block;
+	margin-top: 45px;
+}
+
+main .main-btn:hover {
+	background-color: #060606;
+	color: #FFFFFF !important;
+}
+
+@media screen and (max-width: 576px) {
+	header .header-content h1 {
+     padding: 0;
+   
+}
+	header .logo {
+		width: auto;
+	}
+	header .header-content h1 {
+		padding: 5px;
+	}
+	main .social-wrapper .social-today .today {
+		padding: 5px;
+	}
+	main .social-wrapper .social-today .likes {
+		padding-right: 5px;
+	}
+	main .social-wrapper .social-date .likes {
+		padding-right: 5px;
+	}
+	main .social-wrapper .social-date .date {
+		padding: 5px;
+	}
+	main .social-wrapper .social-date .likes-1 {
+		padding-right: 2px;
+	}
+	header .popularity {
+ 
+     padding: 0px;
+	}
+	header .data-block .date-txt {
+   
+     padding-left: 0;
+	}
+}
