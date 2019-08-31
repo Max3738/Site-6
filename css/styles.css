@@ -74,7 +74,7 @@ header .logo {
 header .logo .logo-img {
 	height: 161px;
 	width: 166px;
-	margin: 3px 0 0 60px
+	margin: 0 0 0 60px
 }
 
 header .header-content {
@@ -83,9 +83,11 @@ header .header-content {
 }
 
 header .header-content h1 {
-	padding: 31px 24px 14px 35px;
-	font-size: 35px;
-	display: inline-block;
+	
+	padding: 31px 0px 14px 35px;
+        font-size: 33px;
+       font-family: 'MYRIADPROREGULAR';
+       display: inline-block;
 }
 
 header .header-content .header-btn {
@@ -107,7 +109,7 @@ header .header-content .header-btn:hover {
 
 header .popularity {
 	font-size: 17px;
-	max-width: 336px;
+	max-width: 378px;
 	padding: 0 0 0 36px;
 }
 
