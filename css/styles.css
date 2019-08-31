@@ -3,16 +3,23 @@
 	src: url('../fonts/MYRIADPROREGULAR.eot');
 	src: local('../fonts/MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
 }
-
-
-/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4410">Text with this font applied</p> */
-
-.fontsforweb_fontid_4410 {
-	font-family: 'MYRIADPROREGULAR' !important;
+@font-face {
+	font-family: 'ProximaNova-Bold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: local('../fonts/ProximaNova-Bold'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'ProximaNova-Semibold';
+	src: url('../fonts/ProximaNova-Semibold.eot');
+	src: local('../fonts/ProximaNova-Semibold'), url('../fonts/ProximaNova-Semibold.woff') format('woff'), url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ProximaNova-Regular';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: local('../fonts/ProximaNova-Regular'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+}
 
-/* Font downloaded from FontsForWeb.com */
 
 * {
 	margin: 0;
@@ -47,7 +54,7 @@ a {
 }
 
 body {
-	font-family: 'MYRIADPROREGULAR';
+	font-family: 'ProximaNova-Regular';
 	color: #262626;
 	background-color: #FFFFFF;
 }
@@ -114,11 +121,7 @@ header .popularity {
 }
 
 header .popularity span {
-	font-weight: bold;
-}
-
-header .popularity p {
-	opacity: .7;
+	font-family: "ProximaNova-Bold";
 }
 
 header .data-block {
@@ -192,6 +195,8 @@ main .bg-block-img:after {
 }
 
 main .bg-block-img .img-upload {
+	font-family: "ProximaNova-Semibold";
+	font-style: normal;
 	position: absolute;
 	top: 264px;
 	left: calc(50% - 93px);
@@ -240,6 +245,7 @@ main .social-wrapper .social-date {
 
 main .social-wrapper .social-today .today {
 	padding: 0 53px 25px 0;
+    font-size: 17px;
 }
 
 main .social-wrapper .social-today .today-1 {
@@ -248,10 +254,11 @@ main .social-wrapper .social-today .today-1 {
 
 main .social-wrapper .social-date .date {
 	padding: 0 25px 0 0;
+	    font-size: 17px;
 }
 
 main .social-wrapper .social-date .date-1 {
-	padding: 0 23px 0 0;
+	padding: 0 18px 0 0;
 }
 
 main .social-today>b {
@@ -259,20 +266,21 @@ main .social-today>b {
 }
 
 main .social-wrapper .social-today .likes {
-	padding-right: 21px
+	padding-right: 21px;
+	font-size: 17px;
+	font-family: "ProximaNova-Bold";
 }
 
 main .social-wrapper .social-date .likes {
-	padding-right: 30px
+	padding-right: 23px;
+	font-size: 17px;
+	font-family: "ProximaNova-Bold";
 }
 
 main .social-wrapper .social-date .likes-1 {
-	padding-right: 50px
+	padding-right: 46px
 }
 
-main .social-wrapper img {
-	margin-right: 3px;
-}
 main .social-wrapper .figure {
     margin-right: 7px;
 }
@@ -288,7 +296,7 @@ main .main-btn {
 	transition: .6s ease-out;
 	cursor: pointer;
 	text-align: center;
-	width: 125px;
+	width: 130px;
 	display: block;
 	margin-top: 22px;
 }
@@ -296,6 +304,14 @@ main .main-btn {
 main .main-btn:hover {
 	background-color: #060606;
 	color: #FFFFFF !important;
+}
+main .three-th-likes{
+	 font-size: 17px;
+}
+main .twentyth-likes{
+	margin-right: 10px;
+	    font-size: 17px;
+	font-family: "ProximaNova-Bold";
 }
 
 @media screen and (max-width: 576px) {
